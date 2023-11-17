@@ -24,7 +24,6 @@ router = DefaultRouter()
 router.register(r'devices', DeviceViewSet)
 router.register(r'temperature-readings', TemperatureReadingViewSet)
 router.register(r'humidity-readings', HumidityReadingViewSet)
-# router.register(r'DeviceGraphView', DeviceGraphView)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
